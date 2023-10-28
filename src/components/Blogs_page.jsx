@@ -38,7 +38,7 @@ function Blogs_page() {
      <Blogs_props_page 
     imgsrc={blog6}
     title="Our Commitment to Excellence"
-    para="At Massie & Company, we believe in delivering the highest quality accounting, tax, and consulting services to our valued clients. Our team of experienced professionals is dedicated to helping our clients solve their present challenges while also identifying opportunities."
+    para="At Massie & company, we believe in delivering the highest quality accounting, tax, and consulting services to our valued clients. Our team of experienced professionals is dedicated to helping our clients solve their present challenges while also identifying opportunities."
     />
     </div>
     </>
