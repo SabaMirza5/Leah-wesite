@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
+// import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon, FaceSmileIcon } from '@heroicons/react/24/solid';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
+import { FaBeer } from 'react-icons/fa';
 
 const Navbaar_2 = () => {
     let Links =[
@@ -22,7 +23,8 @@ const Navbaar_2 = () => {
             <img src={logo} alt="image here" className='md:w-60  md:h-20 rounded-2xl px-4 py-2 w-48 h-16  ' />
             <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer xl:hidden w-7 h-7'>
                 {
-                    open ? <XMarkIcon/> : <Bars3BottomRightIcon />
+                  
+                    open ? <FaBeer/> : <FaBeer />
                 }
             </div>
             <ul className={`xl:flex xl:pb-0 pb-12 absolute xl:static bg-white xl:z-auto z-[-1] left-0 w-full  items-center xl:w-auto xl:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 md:top-[7rem]' : 'top-[-490px] md:top[-550px]'}`}>
