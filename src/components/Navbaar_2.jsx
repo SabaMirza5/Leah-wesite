@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-// import { Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
-import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid.js';
+import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 
