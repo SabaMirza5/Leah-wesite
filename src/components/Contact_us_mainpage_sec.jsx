@@ -20,8 +20,8 @@ function Contact_us_mainpage_sec() {
                 fill="none"
               >
                 <path
-                  fill-rule="evenodd"
-                  clip-rule="evenodd"
+                  fillRule="evenodd"
+                  clipRule="evenodd"
                   d="M2.82723 1.26623C3.08969 1.00417 3.40485 0.800869 3.75183 0.669817C4.0988 0.538765 4.46966 0.482948 4.83984 0.506066C5.21002 0.529185 5.57105 0.63071 5.89902 0.803914C6.227 0.977118 6.51441 1.21805 6.74223 1.51073L9.43473 4.96973C9.92823 5.60423 10.1022 6.43073 9.90723 7.21073L9.08673 10.4957C9.04431 10.6659 9.0466 10.8441 9.09338 11.0131C9.14017 11.1821 9.22985 11.3361 9.35373 11.4602L13.0392 15.1457C13.1635 15.2699 13.3178 15.3597 13.4871 15.4065C13.6563 15.4533 13.8349 15.4554 14.0052 15.4127L17.2887 14.5922C17.6737 14.496 18.0754 14.4885 18.4636 14.5704C18.8519 14.6522 19.2164 14.8213 19.5297 15.0647L22.9887 17.7557C24.2322 18.7232 24.3462 20.5607 23.2332 21.6722L21.6822 23.2232C20.5722 24.3332 18.9132 24.8207 17.3667 24.2762C13.4085 22.8835 9.81464 20.6175 6.85173 17.6462C3.88066 14.6838 1.61464 11.0904 0.22173 7.13273C-0.32127 5.58773 0.16623 3.92723 1.27623 2.81723L2.82723 1.26623Z"
                   fill="#1E559B"
                 />
@@ -68,20 +68,20 @@ function Contact_us_mainpage_sec() {
         <div className="form divide-y divide-gray-200 bg-[#F8F8F8] rounded-lg">
 					<div className="lg:p-12 md:p-8 p-12 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
 						<div className="relative">
-							<input autocomplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
-							<label for="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Name:</label>
+							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Name:</label>
 						</div>
             <div className="relative">
-							<input autocomplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
-							<label for="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Email:</label>
+							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Email:</label>
 						</div>
             <div className="relative">
-							<input autocomplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
-							<label for="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Phone:</label>
+							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Phone:</label>
 						</div>
             <div className="relative">
-							<input autocomplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
-							<label for="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Message:</label>
+							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-[#1E559B] text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Message:</label>
 						</div>
 						<div className="relative">
 							<button className=" text-[#1E559B] rounded-md px-2 py-1 flex items-center"><FaLocationArrow className="me-3"/> Send Message</button>

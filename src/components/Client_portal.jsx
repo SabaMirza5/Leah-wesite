@@ -24,7 +24,7 @@ function Client_portal() {
                       <path
                         d="M21.5001 2.15001C21.5001 0.967503 20.5326 0 19.3501 0H2.15001C0.967503 0 0 0.967503 0 2.15001V15.05C0 16.2325 0.967503 17.2001 2.15001 17.2001H19.3501C20.5326 17.2001 21.5001 16.2325 21.5001 15.05V2.15001ZM19.3501 2.15001L10.75 7.52502L2.15001 2.15001H19.3501ZM19.3501 15.05H2.15001V4.30001L10.75 9.67503L19.3501 4.30001V15.05Z"
                         fill="black"
-                        fill-opacity="0.2"
+                        fillOpacity="0.2"
                       />
                     </svg>
                   </span>
@@ -49,26 +49,26 @@ function Client_portal() {
                       <path
                         d="M15.3178 12.3637L17.0451 14.091L20.4996 10.6365L18.7724 8.90918"
                         stroke="black"
-                        stroke-opacity="0.2"
-                        stroke-width="2.30303"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeOpacity="0.2"
+                        strokeWidth="2.30303"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M10.3452 12.1546L20.4998 2"
                         stroke="black"
-                        stroke-opacity="0.2"
-                        stroke-width="2.30303"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeOpacity="0.2"
+                        strokeWidth="2.30303"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                       <path
                         d="M6.68182 21.0004C9.54366 21.0004 11.8636 18.6804 11.8636 15.8185C11.8636 12.9567 9.54366 10.6367 6.68182 10.6367C3.81998 10.6367 1.5 12.9567 1.5 15.8185C1.5 18.6804 3.81998 21.0004 6.68182 21.0004Z"
                         stroke="black"
-                        stroke-opacity="0.2"
-                        stroke-width="2.30303"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeOpacity="0.2"
+                        strokeWidth="2.30303"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </span>

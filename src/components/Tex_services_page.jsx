@@ -35,10 +35,22 @@ function Tex_services_page() {
      timelineh5="Home Builders & Residential Contracts:"
      timelinep5="For home builders and residential contractors, we provide specialized tax planning to capitalize on industry-specific deductions and credits."
      btmheading="Support During Audits or Examinations:"
-     btmpera={[" Should your business be selected for a tax audit or examination, rest assured that our adept team will provide steadfast support. We work closely with federal or state authorities, diligently preparing and presenting the necessary documentation to substantiate the information on your tax return.", <br/>,  "With Massie & Company, you gain a trusted partner committed to delivering excellence in tax planning services that cater to the unique demands of the construction industry. Our tailored solutions empower your business to navigate the tax landscape with confidence, enabling you to focus on what matters most – achieving your financial objectives." , <br/>, "To learn more or schedule a consultation, please contact our dedicated team at info@massiecpa.com. We look forward to assisting you in optimizing your tax strategies and propelling your construction business toward continued success."]} 
+     btmpera={[" Should your business be selected for a tax audit or examination, rest assured that our adept team will provide steadfast support. We work closely with federal or state authorities, diligently preparing and presenting the necessary documentation to substantiate the information on your tax return.", <br key="br1"/>,  "With Massie & Company, you gain a trusted partner committed to delivering excellence in tax planning services that cater to the unique demands of the construction industry. Our tailored solutions empower your business to navigate the tax landscape with confidence, enabling you to focus on what matters most – achieving your financial objectives." , <br key="br2"/>, "To learn more or schedule a consultation, please contact our dedicated team at info@massiecpa.com. We look forward to assisting you in optimizing your tax strategies and propelling your construction business toward continued success."]} 
+
+
+
+    //  btmpera={[
+    //   { id: 1, content: " Should your business be selected for a tax audit or examination, rest assured that our adept team will provide steadfast support. We work closely with federal or state authorities, diligently preparing and presenting the necessary documentation to substantiate the information on your tax return." },
+    //   { id: 2, content: <br key="br1" /> },
+    //   { id: 3, content: "With Massie & Company, you gain a trusted partner committed to delivering excellence in tax planning services that cater to the unique demands of the construction industry. Our tailored solutions empower your business to navigate the tax landscape with confidence, enabling you to focus on what matters most – achieving your financial objectives." },
+    //   { id: 4, content: <br key="br2" /> },
+    //   { id: 5, content: "To learn more or schedule a consultation, please contact our dedicated team at info@massiecpa.com. We look forward to assisting you in optimizing your tax strategies and propelling your construction business toward continued success." }
+    // ]}
+    
      />
     </>
   );
 }
 
 export default Tex_services_page;
+ 

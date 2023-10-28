@@ -11,7 +11,7 @@ function Different_sec() {
       </div>
       <div className="basis-2/4 pr-[5%]  pl-[5%] flex flex-col">
       <h2 className='font-bold font-serif capitalize text-2xl md:text-4xl md:mt-0 mt-5'>Why We're Different</h2>
-        <ul class="max-w-md space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-base  font-serif font-normal text-black pt-4 ">
+        <ul className="max-w-md space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-base  font-serif font-normal text-black pt-4 ">
           <li>Specialization in Construction</li> 
           <li>Direct and To-the-Point Approach</li> 
           <li>Honesty as Our Foundation</li> 

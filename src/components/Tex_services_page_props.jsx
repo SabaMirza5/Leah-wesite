@@ -20,37 +20,37 @@ function Tex_services_page_props(props) {
           </p>
           <h2 className="lg:text-xl md:text-xl text-lg font-serif pt-4 font-bold">{props.heading3}
           </h2>
-          <div class="-my-6">
-            <div class="relative pl-8 sm:pl-3 pt-6 group">
-              <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
+          <div className="-my-6">
+            <div className="relative pl-8 sm:pl-3 pt-6 group">
+              <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
               <div className="pop-font lg:text-lg md:text-lg text-[#1E559B] font-bold">{props.timelineh1}
                 <p className="lg:text-lg md:text-lg font-normal text-black">{props.timelinep1}
                 </p>
               </div>
             </div>
-            <div class="relative pl-8 sm:pl-3 pt-6 group">
-              <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
+            <div className="relative pl-8 sm:pl-3 pt-6 group">
+              <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
               <div className="pop-font lg:text-lg md:text-lg text-[#1E559B] font-bold">{props.timelineh2}
                 <p className="lg:text-lg md:text-lg font-normal text-black">{props.timelinep2}
                 </p>
               </div>
             </div>
-            <div class="relative pl-8 sm:pl-3 pt-6 group">
-              <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
+            <div className="relative pl-8 sm:pl-3 pt-6 group">
+              <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
               <div className="pop-font lg:text-lg md:text-lg text-[#1E559B] font-bold">{props.timelineh3}
                 <p className="lg:text-lg md:text-lg font-normal text-black">{props.timelinep3}
                 </p>
               </div>
             </div>
-            <div class="relative pl-8 sm:pl-3 pt-6 group">
-              <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
+            <div className="relative pl-8 sm:pl-3 pt-6 group">
+              <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
               <div className="pop-font lg:text-lg md:text-lg text-[#1E559B] font-bold">{props.timelineh4}
                 <p className="lg:text-lg md:text-lg font-normal text-black">{props.timelinep4}
                 </p>
               </div>
             </div>
-            <div class="relative pl-8 sm:pl-3 pt-6 group">
-              <div class="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
+            <div className="relative pl-8 sm:pl-3 pt-6 group">
+              <div className="flex flex-col sm:flex-row items-start mb-1 group-last:before:hidden before:absolute before:left-2 sm:before:left-0 before:h-full before:px-px before:bg-slate-300 before:self-start before:-translate-x-1/2 before:translate-y-3 after:absolute after:left-2 sm:after:left-0 after:w-2 after:h-2 after:bg-indigo-600 after:border-4 after:box-content after:border-blue-400 after:rounded-full  after:-translate-x-1/2 after:translate-y-1.5"></div>
               <div className="pop-font lg:text-lg md:text-lg text-[#1E559B] font-bold">{props.timelineh5}
                 <p className="lg:text-lg md:text-lg font-normal text-black">{props.timelinep5}
                 </p>

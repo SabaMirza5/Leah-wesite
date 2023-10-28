@@ -21,9 +21,9 @@ function Discover_your_dream_page() {
           construction endeavors, we pride ourselves on being the dream team of
           construction CPAs that you can rely on. Here's why our specialized
           expertise and direct approach make us the perfect match for your
-          financial needs:
+          financial needs:  </p>
           <div className="justify-between flex">
-            <ul class="max-w-md space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-base  font-serif font-normal text-black pt-4 ">
+            <ul className="max-w-md space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-base  font-serif font-normal text-black pt-4 ">
               <li>Construction Industry Specialists</li>
               <li>Direct and Trustworthy Communication</li>
               <li>Deep Industry Insights and Guidance</li>
@@ -52,26 +52,26 @@ function Discover_your_dream_page() {
                   r="42.5"
                   transform="rotate(133.395 100.15 80.0231)"
                   stroke="#1E559B"
-                  stroke-width="3"
+                  strokeWidth="3"
                 />
                 <path
                   d="M79.5923 78.4771L37.1825 79.6655"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
                 <path
                   d="M53.1687 94.78L37.1827 79.6655L52.2972 63.6795"
                   stroke="white"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                 />
               </svg>
             </span>
           </div>
-        </p>
+      
         <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif text-[#1E559B] ">
           Construction Industry Specialists:
         </h2>

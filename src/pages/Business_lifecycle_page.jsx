@@ -21,7 +21,7 @@ function Business_lifecycle_page() {
         <h2 className="font-bold font-serif capitalize text-base  mt-5">
           Startup – You need the basic income tax information
         </h2>
-        <ul class="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
+        <ul className="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
           <li>Year-End Corporate & Personal Income Tax Preparation.</li>
           <li>
             Annual Tax Estimate Calculations so you Know Where you stand before
@@ -35,7 +35,7 @@ function Business_lifecycle_page() {
         <h2 className="font-bold font-serif capitalize text-base  mt-5">
         Growth – You need solid information to make good decisions
         </h2>
-        <ul class="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
+        <ul className="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
           <li>Everything you’d expect during the Startup Cycle, but also including:</li>
           <li>
           ERISA 401k plan audit for your retirement plans.
@@ -63,7 +63,7 @@ function Business_lifecycle_page() {
         <h2 className="font-bold font-serif capitalize text-base mt-5">
         Maturity – You need a strategic long-term plan
         </h2>
-        <ul class="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
+        <ul className="mx-4 space-y-1 list-disc list-inside  lg:text-lg md:text-lg text-xs  font-serif font-normal text-black pt-4 ">
           <li>1-5 year goal tracking and monitoring. Helping you make a plan and follow the short term through.</li>
           <li>
           Structuring / restructuring your business activities to be tax & financially efficient.
