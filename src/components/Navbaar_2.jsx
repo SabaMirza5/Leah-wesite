@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon, FaceSmileIcon } from '@heroicons/react/24/solid';
 import logo from '../assets/logo.png';
 import { Link } from 'react-router-dom';
 import { FaTimes, FaAlignJustify } from 'react-icons/fa';
