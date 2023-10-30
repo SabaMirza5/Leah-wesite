@@ -81,7 +81,7 @@ function Client_portal() {
                   />
                 </div>
 
-                <button className="bg-[#1E559B] w-full hover:bg-blue-800 text-white uppercase text-sm font-semibold px-4 py-2 rounded">
+                <button className="bg-primary w-full hover:bg-blue-800 text-white uppercase text-sm font-semibold px-4 py-2 rounded">
                   Log In
                 </button>
               </form>

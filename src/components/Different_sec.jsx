@@ -19,8 +19,8 @@ function Different_sec() {
           <li>Collaborative Partnership</li> 
           <li>Emphasis on Innovation</li> 
        </ul>
-       {/* <button className='btn  px-3 py-1 mt-7 rounded  md:static text-white  border-4 border-[#1E559B] bg-[#1E559B] hover:bg-[#1E559B]  hover:text-white font-bold block xl:mt-0 w-48'>Learn More</button> */}
-        <button className='text-white bg-[#1E559B] rounded p-3 hover:bg-white hover:border-2 hover:border-[#1E559B] hover:text-[#1E559B] font-bold mt-7 w-32'><Link to="/why-we-different-page">Learn More</Link></button>
+       {/* <button className='btn  px-3 py-1 mt-7 rounded  md:static text-white  border-4 border-primary bg-primary hover:bg-primary  hover:text-white font-bold block xl:mt-0 w-48'>Learn More</button> */}
+        <button className='text-white bg-primary rounded p-3 hover:bg-white hover:border-2 hover:border-primary hover:text-primary font-bold mt-7 w-32'><Link to="/why-we-different-page">Learn More</Link></button>
       </div>
     </div>
     </>

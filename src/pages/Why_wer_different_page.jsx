@@ -24,7 +24,7 @@ function Why_wer_different_page() {
           At Massie and Company, we take immense pride in being distinct from
           the traditional accounting firms. Here's why we stand out:
         </p>
-        <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif text-[#1E559B] ">
+        <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif text-primary ">
           Specialization in Construction:
         </h2>
 
@@ -38,7 +38,7 @@ function Why_wer_different_page() {
           your business towards greater success and sustainability.
         </p>
 
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Direct and To-the-Point Approach:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -50,7 +50,7 @@ function Why_wer_different_page() {
           and concise communication, minimizing any room for confusion or
           ambiguity.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Accuracy of Information:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -62,7 +62,7 @@ function Why_wer_different_page() {
           goals. Building trust with our clients is our top priority, and we
           achieve that through candid and open dialogue.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Industry Insights that Empower You:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -73,7 +73,7 @@ function Why_wer_different_page() {
           to stay ahead of the competition, navigate challenges with ease, and
           seize lucrative opportunities.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Collaborative Partnership:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -84,7 +84,7 @@ function Why_wer_different_page() {
           connection allows us to align our services to your objectives,
           delivering results that exceed expectations.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Emphasis on Innovation:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">

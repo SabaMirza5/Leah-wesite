@@ -30,13 +30,13 @@ const Navbaar_2 = () => {
                 {
                     Links.map((link, index) => (
                     <li className='md:ml-8 md:my-0 my-5 font-semibold' key={index} >
-                        {/* <a href={link.link} className='text-gray-800 hover:text-[#1E559B] duration-500'>{link.name}</a> */}
-                        <Link to={link.link} className='text-gray-800 hover:text-[#1E559B] duration-500'>{link.name}</Link>
+                        {/* <a href={link.link} className='text-gray-800 hover:text-blue duration-500'>{link.name}</a> */}
+                        <Link to={link.link} className='text-gray-800 hover:text-primary duration-500'>{link.name}</Link>
 
                     </li>))
                 }
-               <Link to="/"><button className='btn md:ml-8 px-3 py-1 rounded  md:static    text-[#1E559B]  border-4 border-[#1E559B] bg-white hover:bg-[#1E559B]  hover:text-white font-bold xl:mt-0 mt-4'>Submit RFP</button></Link>
-               <Link to="/client-portal-page"><button className='btn md:ml-8 px-3 py-1 rounded  md:static text-white  border-4 border-[#1E559B] bg-[#1E559B] hover:bg-[#1E559B]  hover:text-white font-bold block xl:mt-0 mt-4'>Client Portal</button></Link>
+               <Link to="/"><button className='btn md:ml-8 px-3 py-1 rounded  md:static    text-primary border-4 border-primary bg-white hover:bg-primary hover:text-white font-bold xl:mt-0 mt-4'>Submit RFP</button></Link>
+               <Link to="/client-portal-page"><button className='btn md:ml-8 px-3 py-1 rounded  md:static text-white  border-4 border-primary bg-primary hover:bg-primary  hover:text-white font-bold block xl:mt-0 mt-4'>Client Portal</button></Link>
             </ul>
            </div>
         </div>

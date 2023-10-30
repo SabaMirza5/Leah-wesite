@@ -72,7 +72,7 @@ function Discover_your_dream_page() {
             </span>
           </div>
       
-        <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif text-[#1E559B] ">
+        <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif text-primary ">
           Construction Industry Specialists:
         </h2>
 
@@ -87,7 +87,7 @@ function Discover_your_dream_page() {
           familiar with the challenges and opportunities unique to construction.
         </p>
 
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Direct and Trustworthy Communication:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -100,7 +100,7 @@ function Discover_your_dream_page() {
           and upfront in our interactions, building a relationship based on
           trust and transparency.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Deep Industry Insights and Guidance:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -113,7 +113,7 @@ function Discover_your_dream_page() {
           through the complexities of the construction landscape with
           confidence.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Tailored Solutions for Your Industry:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -125,7 +125,7 @@ function Discover_your_dream_page() {
           strategies, streamlining accounting processes, or managing cash flow
           effectively, we have you covered.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Collaborative Partnership for Success:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
@@ -136,7 +136,7 @@ function Discover_your_dream_page() {
           allowing us to provide solutions that not only solve immediate
           challenges but also support your long-term vision.
         </p>
-        <h2 className=" text-[#1E559B] lg:text-2xl md:text-2xl text-base font-bold font-serif">
+        <h2 className=" text-primary lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Embracing Innovation for Efficiency:
         </h2>
         <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">

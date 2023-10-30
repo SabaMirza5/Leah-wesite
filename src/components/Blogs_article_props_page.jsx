@@ -14,7 +14,7 @@ function Blogs_article_props_page(props) {
           <p className=" font-serif  lg:text-base md:text-sm text-xs">
             {props.parablog}
           </p>
-          <button className="text-white bg-[#1E559B] rounded p-3 hover:bg-white hover:border-2 hover:border-[#1E559B] hover:text-[#1E559B] font-bold mt-3 w-32">
+          <button className="text-white bg-primary rounded p-3 hover:bg-white hover:border-2 hover:border-primary hover:text-primary font-bold mt-3 w-32">
             <Link to="/discover-your-dream">Read More</Link>
           </button>
         </div>

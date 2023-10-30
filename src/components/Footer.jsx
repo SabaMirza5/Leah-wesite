@@ -23,7 +23,7 @@ function Footer() {
         </div>
       </div>
       <div className="">
-        <h1 className='font-serif font-bold text-xl text-[#1E559B]'>Links</h1>
+        <h1 className='font-serif font-bold text-xl text-primary'>Links</h1>
         <ul className='text-sm font-serif font-normal'>
           <li className='mt-3'><Link to="/">Home</Link></li>
           <li className='mt-3'><Link to="/about">About Us</Link></li>
@@ -35,7 +35,7 @@ function Footer() {
         </ul>
       </div>
       <div className="">
-        <h1 className='font-serif font-bold text-xl text-[#1E559B]'>Links</h1>
+        <h1 className='font-serif font-bold text-xl text-primary'>Links</h1>
         <ul className='text-sm font-serif font-normal'>
           <li className='mt-3'><Link to="/blogs">Blogs</Link></li>
           <li className='mt-3'><Link to="/mission-and-values">Mission</Link></li>
@@ -47,7 +47,7 @@ function Footer() {
         </ul>
       </div>
       <div className="">
-        <h2 className='font-serif font-bold text-xl text-[#1E559B]'>CONTACT US</h2>
+        <h2 className='font-serif font-bold text-xl text-primary'>CONTACT US</h2>
         <p className='mt-3'>Phone:<span className='font-sm'>1-800-997-5085 (Toll-free)</span></p>
         <p className='mt-3'>Phone:<span className='font-sm'>+1 (360) 687-1562 (Local)</span></p>
         <p className='mt-3'>Email:<span className='font-sm'>info@massi.com</span></p>

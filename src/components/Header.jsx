@@ -20,10 +20,10 @@ function Header() {
     <div className="bg-[#F8F8F8] flex mx-auto flex-col sm:flex-row " >
       <div className='basis-3/5 my-auto mx-0 pl-[5%]'>
       <hr className='w-20 bg-blue-800'/>
-            <h3 className='md:pt-2 pt-32 font-bold md:text-3xl text-base text-[#1E559B] font-serif'>Welcome to Massie & Company</h3>
+            <h3 className='md:pt-2 pt-32 font-bold md:text-3xl text-base text-primary font-serif'>Welcome to Massie & Company</h3>
             <h1 className='md:text-4xl lg:text-5xl font-bold font-serif md:py-5 pt-0  text-black capitalize'>Your Trusted <br /> Construction CPA Firm</h1>
             <div className='flex items-center md:mb-0 mb-5'>
-            <button className='text-white bg-[#1E559B] p-3 hover:bg-white hover:border-4 hover:border-[#1E559B] hover:text-[#1E559B] font-bold'>Learn More</button>
+            <button className='text-white bg-primary p-3 hover:bg-white hover:border-4 hover:border-primary hover:text-primary font-bold'>Learn More</button>
             <img src={videobtn} alt=""  className='pl-2'/>
             <p className='pl-2 text-xl capitalize font-normal'>Watch Video</p>
             </div>

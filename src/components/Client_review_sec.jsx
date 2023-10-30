@@ -9,7 +9,7 @@ function Client_review_sec() {
 
 <div className="flex pl-[5%] pr-[5%] flex-col sm:flex-row gap-7 mb-9">
 <div className="left basis-1/2">
-<h2 className="font-serif font-bold  lg:text-4xl md:text-xl text-base text-[#1E559B]">What our</h2>
+<h2 className="font-serif font-bold  lg:text-4xl md:text-xl text-base text-primary">What our</h2>
 <p className="font-bold font-serif capitalize lg:text-4xl md:text-xl text-base pb-6 ">Client say about us</p>
 <p className="lg:text-lg md:text-base text-sm font-normal text-black font-serif capitalize text-justify">
             Over the past 7 years, Massie & Co has been the corporate CPA for
@@ -29,12 +29,12 @@ function Client_review_sec() {
             like we had to extract information from our prior CPA, and with
             Massie they're up front and open, very refreshing! Kevin Larkin
           </p>
-          <button className="text-[#1E559B]  border-4 border-[#1E559B] bg-white p-2  hover:bg-[#1E559B]  hover:text-white font-bold mt-5">
+          <button className="text-primary  border-4 border-primary bg-white p-2  hover:bg-primary  hover:text-white font-bold mt-5">
             Read More
           </button>
         </div>
          <div className="right basis-1/2 lg:mt-0  pt-20">
-            <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-[#1E559B] lg:ml-20 flex">
+            <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-primary lg:ml-20 flex">
             <img src={client1} alt="" className="w-[95px] h-[95px]" />
             <div className="pl-4">
               <p className="lg:text-2xl  md:text-2xl text-base text-black font-serif font-normal">Marianne Haskell</p>
@@ -42,14 +42,14 @@ function Client_review_sec() {
             </div>
           </div>
 
-          <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-[#1E559B]  flex lg:mr-10 mt-5">
+          <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-primary  flex lg:mr-10 mt-5">
             <img src={client2} alt="" className="w-[95px] h-[95px]" />
             <div className="pl-4">
               <p className="lg:text-2xl  md:text-2xl text-base text-black font-serif font-normal">Jacob Williams</p>
               <p className=" lg:text-sm  md:text-sm text-xs  font-normal text-black font-serif">Right from the beginning, they impressed us with their personalized and consultative approach</p>
             </div>
           </div>
-          <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-[#1E559B] lg:ml-20 flex   mt-5">
+          <div className="rounded-md bg-[#F8F8F8] p-3 border-l-4 border-l-primary lg:ml-20 flex   mt-5">
             <img src={client3} alt="" className="w-[95px] h-[95px]" />
             <div className="pl-4">
               <p className="lg:text-2xl  md:text-2xl text-base text-black font-serif font-normal">Michael Stanton</p>

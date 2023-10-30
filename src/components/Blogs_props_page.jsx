@@ -27,7 +27,7 @@ function Blogs_props_page(props) {
    <div className="p-[5%]">
    <h3 className="card-title lg:text-xl md:text-xl text-base font-bold ">{props.title}</h3>
    <p className="card-category lg:text-base md:text-base text-sm font-serif pt-3">{props.para}</p>
-   <button className=' bg-[#1E559B]  flex text-white p-3 my-3 font-serif font-normal rounded-lg'><Link to="/blogs-detail">Read More</Link><span className='ms-3'><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none">
+   <button className=' bg-primary  flex text-white p-3 my-3 font-serif font-normal rounded-lg'><Link to="/blogs-detail">Read More</Link><span className='ms-3'><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none">
   <path d="M2 12L26 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
   <path d="M19 5L26 12L19 19" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
 </svg></span></button>

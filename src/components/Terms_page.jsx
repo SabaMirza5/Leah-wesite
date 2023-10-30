@@ -15,13 +15,13 @@ function Terms_page() {
           </h2>
         
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold">
+            <span className="text-primary font-bold">
             Acceptance of Terms:
             </span>{" "}
             By accessing or using our website, you signify your acceptance of these Terms. If you do not agree to these Terms, please refrain from using our website.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold">Security:</span> You are
+            <span className="text-primary font-bold">Security:</span> You are
             responsible for maintaining the confidentiality of your Massie Free
             Benchmarking Tool  account login credentials. Any activities
             performed using your account will be attributed to you. If you
@@ -29,17 +29,17 @@ function Terms_page() {
             immediately.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold">  Compliance with Laws:</span> You
+            <span className="text-primary font-bold">  Compliance with Laws:</span> You
            You agree to use our website in compliance with all applicable laws, regulations, and industry standards.
           </p>
           <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif">
           Intellectual Property
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold">Ownership:</span> All content, designs, logos, trademarks, and other intellectual property displayed on the website are the exclusive property of Massie & Company CPA or its licensors.
+            <span className="text-primary font-bold">Ownership:</span> All content, designs, logos, trademarks, and other intellectual property displayed on the website are the exclusive property of Massie & Company CPA or its licensors.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold"> Limited License:</span>{" "}
+            <span className="text-primary font-bold"> Limited License:</span>{" "}
             Subject to compliance with these Terms, we grant you a limited, non-exclusive, revocable license to use the website for personal, non-commercial purposes.
           </p>
 
@@ -47,11 +47,11 @@ function Terms_page() {
           Website Content and Services
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold"> Accuracy of Information:</span>{" "}
+            <span className="text-primary font-bold"> Accuracy of Information:</span>{" "}
             We strive to provide accurate and up-to-date information on our website. However, we do not guarantee the accuracy, completeness, or timeliness of the content. The website content is for informational purposes only and should not be considered professional advice.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold"> Service Limitations:</span>{" "}
+            <span className="text-primary font-bold"> Service Limitations:</span>{" "}
             While we endeavor to provide uninterrupted access to the website, we do not guarantee continuous availability or error-free operation.
           </p>
         
@@ -67,11 +67,11 @@ function Terms_page() {
           Third-Party Links and Content
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold"> Third-Party Links:</span>{" "}
+            <span className="text-primary font-bold"> Third-Party Links:</span>{" "}
             Our website may contain links to third-party websites or services. We do not endorse or assume any responsibility for the content or practices of these third-party websites. Your use of third-party links is at your own risk.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-[#1E559B] font-bold">  Third-Party Content:</span>{" "}
+            <span className="text-primary font-bold">  Third-Party Content:</span>{" "}
            We may display third-party content on our website, such as advertisements or sponsored content. We do not endorse or guarantee the accuracy of this content.
           </p>
           <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif">
