@@ -15,8 +15,8 @@ function Affiliation_page() {
        <Commen_header_sec 
               title="Massie Affiliations"
               background={{background:`url(${affiliationbg})`}}/> 
-               <h2 className="lg:text-xl md:text-xl text-base font-serif font-bold px-[5%] pt-[5%]">Affiliations</h2>
-              <div className="grid p-[5%] gap-6 lg:grid-cols-4 md:grid-cols-4 grid-cols-2 justify-center items-center">
+               <h2 className=" dark:bg-neutral-200 lg:text-xl md:text-xl text-base font-serif font-bold px-[5%] pt-[5%]">Affiliations</h2>
+              <div className=" dark:bg-neutral-200 grid p-[5%] gap-6 lg:grid-cols-4 md:grid-cols-4 grid-cols-2 justify-center items-center">
                
               <div><img src={uca} alt="" /></div>
               <div><img src={swca} alt="" /></div>

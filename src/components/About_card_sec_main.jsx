@@ -11,8 +11,9 @@ import About_card_sec_props from "./About_card_sec_props";
 function About_card_sec_main() {
   return (
     <>
-   <h1 className="pl-[5%] pr-[5%] lg:text-lg md:text-lg text-sm font-serif my-5 mx-5"><span className="font-bold">Since 2013,</span> Massie & Company has been a leading certified public accounting firm based in Battle Ground, Washington and serving the greater Southwest Washington and Portland region.</h1>
-    <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-7 pl-[5%] pr-[5%] mb-6">
+    <div className="dark:bg-neutral-200">
+   <h1 className=" pl-[5%] pr-[5%] lg:text-lg md:text-lg text-sm font-serif  px-5 py-5"><span className="font-bold">Since 2013,</span> Massie & Company has been a leading certified public accounting firm based in Battle Ground, Washington and serving the greater Southwest Washington and Portland region.</h1>
+    <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-7 pl-[5%] pr-[5%] pb-6">
  
     <About_card_sec_props 
     imgsrc={card1}
@@ -46,7 +47,7 @@ function About_card_sec_main() {
     />
    
     </div>
- 
+    </div>
     </>
   );
 }

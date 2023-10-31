@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 function Different_sec() {
   return (
     <>
-    <div className='flex mt-16 flex-col sm:flex-row'>
+    <div className='flex pt-16 flex-col sm:flex-row dark:bg-neutral-200'>
       <div className="basis-2/4">
         <img src={difference_img} alt="" className='w-full' />
       </div>
@@ -19,8 +19,9 @@ function Different_sec() {
           <li>Collaborative Partnership</li> 
           <li>Emphasis on Innovation</li> 
        </ul>
-       {/* <button className='btn  px-3 py-1 mt-7 rounded  md:static text-white  border-4 border-primary bg-primary hover:bg-primary  hover:text-white font-bold block xl:mt-0 w-48'>Learn More</button> */}
-        <button className='text-white bg-primary rounded p-3 hover:bg-white hover:border-2 hover:border-primary hover:text-primary font-bold mt-7 w-32'><Link to="/why-we-different-page">Learn More</Link></button>
+       <Link to="/why-we-different-page" className='mt-4'> <button className='btn p-2 lg:ml-6 rounded  md:static text-primary border-4 border-primary bg-white dark:bg-neutral-200  dark:border-black dark:hover:text-primary  dark:hover:border-primary dark:text-black hover:bg-primary hover:text-white font-bold'>Learn More</button></Link>
+       {/* <Link to="/why-we-different-page">
+        <button className='text-white bg-primary rounded p-3 hover:bg-white hover:border-2 hover:border-primary hover:text-primary font-bold mt-7 w-32 dark:bg-black dark:text-white'>Learn More</button></Link> */}
       </div>
     </div>
     </>

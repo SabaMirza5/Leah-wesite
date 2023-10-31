@@ -5,7 +5,7 @@ import contactmap from "../assets/contactmap.png";
 function Contact_us_mainpage_sec() {
   return (
     <>
-      <div className="flex lg:flex-row md:flex-row flex-col ">
+      <div className="flex lg:flex-row md:flex-row flex-col  dark:bg-neutral-200">
         <div className="basis-2/5 m-12 pl-[5%]">
           <h1 className="lg:text-4xl md:text-4xl text-base font-bold font-serif">
             Contact Us
@@ -65,26 +65,26 @@ function Contact_us_mainpage_sec() {
           </p>
         </div>
         <div className="basis-3/5 pr-[5%] pl-[5%] my-7">
-        <div className="form divide-y divide-gray-200 bg-[#F8F8F8] rounded-lg">
+        <div className="form divide-y divide-gray-200 bg-[#F8F8F8] rounded-lg dark:bg-neutral-300">
 					<div className="lg:p-12 md:p-8 p-12 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
 						<div className="relative">
-							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<input autoComplete="off" id="email" name="email" type="text" className=" dark:bg-neutral-300 bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600 dark:border-b-black" placeholder="Email address" />
 							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Name:</label>
 						</div>
             <div className="relative">
-							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<input autoComplete="off" id="email" name="email" type="text" className="  dark:bg-neutral-300 bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600 dark:border-b-black" placeholder="Email address" />
 							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Email:</label>
 						</div>
             <div className="relative">
-							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<input autoComplete="off" id="email" name="email" type="text" className=" dark:bg-neutral-300 bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600 dark:border-b-black" placeholder="Email address" />
 							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Phone:</label>
 						</div>
             <div className="relative">
-							<input autoComplete="off" id="email" name="email" type="text" className=" bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600" placeholder="Email address" />
+							<input autoComplete="off" id="email" name="email" type="text" className="  dark:bg-neutral-300 bg-[#F8F8F8] peer placeholder-transparent h-10  w-full border-b-2 border-primary text-gray-900 focus:outline-none focus:borer-rose-600 dark:border-b-black" placeholder="Email address" />
 							<label htmlFor="email" className="  absolute left-0 -top-3.5 text-gray-600 text-sm peer-placeholder-shown:text-base peer-placeholder-shown:text-gray-440 peer-placeholder-shown:top-2 transition-all peer-focus:-top-3.5 peer-focus:text-gray-600 peer-focus:text-sm">Message:</label>
 						</div>
 						<div className="relative">
-							<button className=" text-primary rounded-md px-2 py-1 flex items-center"><FaLocationArrow className="me-3"/> Send Message</button>
+							<button className=" text-primary dark:text-black rounded-md px-2 py-1 flex items-center"><FaLocationArrow className="me-3"/> Send Message</button>
 						</div>
 					</div>
 				</div>

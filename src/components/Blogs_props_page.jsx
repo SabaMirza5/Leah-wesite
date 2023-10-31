@@ -5,7 +5,7 @@ function Blogs_props_page(props) {
   return (
     <>
        <div className="card  shadow-lg rounded-md relative">
-       <svg xmlns="http://www.w3.org/2000/svg" width="145"  className="absolute top-[-35px]  left-[-28px]" height="145" viewBox="0 0 145 145" fill="none">
+       <svg xmlns="http://www.w3.org/2000/svg" width="145"  className="absolute top-[-35px]  left-[-28px] " height="145" viewBox="0 0 145 145" fill="none">
   <g filter="url(#filter0_d_1_670)">
     <circle cx="72.5" cy="72.5" r="22.5" fill="white"/>
   </g>
@@ -24,13 +24,16 @@ function Blogs_props_page(props) {
   </defs>
 </svg>
    <img src={props.imgsrc} alt="my image here" className='w-full' />
-   <div className="p-[5%]">
+   <div className="p-[5%] dark:bg-neutral-300">
    <h3 className="card-title lg:text-xl md:text-xl text-base font-bold ">{props.title}</h3>
    <p className="card-category lg:text-base md:text-base text-sm font-serif pt-3">{props.para}</p>
-   <button className=' bg-primary  flex text-white p-3 my-3 font-serif font-normal rounded-lg'><Link to="/blogs-detail">Read More</Link><span className='ms-3'><svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none">
-  <path d="M2 12L26 12" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-  <path d="M19 5L26 12L19 19" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-</svg></span></button>
+   <Link to="/blogs-detail"><button className=' bg-primary group flex text-white p-3 my-3 font-serif font-normal rounded-lg dark:border-2 dark:border-black dark:text-black dark:bg-neutral-300 dark:font-bold dark:hover:border-primary dark:hover:text-primary '>Read More<span className='ms-3'>
+
+   <svg xmlns="http://www.w3.org/2000/svg" width="28" height="24" viewBox="0 0 28 24" fill="none" className=''>
+  <path d="M2 12L26 12" stroke="white" className='dark:group-hover:stroke-primary dark:group-hover:fill-primary dark:stroke-black dark:fill-black' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+  <path d="M19 5L26 12L19 19" stroke="white" className='dark:group-hover:stroke-primary dark:group-hover:fill-primary dark:stroke-black dark:fill-black' strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+</svg>
+</span></button></Link>
    </div>
    </div>
     </>

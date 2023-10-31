@@ -10,7 +10,7 @@ function Discover_your_dream_page() {
         background={{ background: `url(${discoverbg})` }}
       />
 
-      <div className="flex  flex-col p-[5%]">
+      <div className="flex  flex-col p-[5%] dark:bg-neutral-200">
         <h1 className="lg:text-4xl md:text-4xl text-xl font-serif font-bold">
           Why Choose Massie & Company?
         </h1>

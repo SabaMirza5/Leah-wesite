@@ -4,15 +4,15 @@ import signin from "../assets/signin.png";
 function Client_portal() {
   return (
     <>
-      <div className="flex  lg:flex-row md:flex-row flex-col p-[5%]">
-        <div className="basis-1/2 shadow-2xl">
+      <div className="flex  lg:flex-row md:flex-row flex-col p-[5%] dark:bg-neutral-200">
+        <div className="basis-1/2 shadow-2xl dark:bg-neutral-300">
           <div className="flex items-center w-full">
-            <div className="w-full bg-white rounded-lg lg:p-10 md:p-10 p-5">
+            <div className="w-full bg-white rounded-lg lg:p-10 md:p-10 p-5 dark:bg-neutral-300">
               <span className="block w-full text-xl uppercase font-bold mb-4">
                 Sign In
               </span>
               <form className="mb-4" action="/" method="post">
-                <div className="mb-4 md:w-full border-2 rounded flex justify-center items-center ">
+                <div className="mb-4 md:w-full border-2 rounded flex justify-center items-center dark:border dark:border-black ">
                   <span className="ms-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -29,15 +29,15 @@ function Client_portal() {
                     </svg>
                   </span>
                   <input
-                    className="w-full  p-2 outline-none focus:shadow-outline"
+                    className="w-full  p-2 outline-none focus:shadow-outline dark:bg-neutral-300 dark:placeholder:text-black dark:font-bold "
                     type="email"
                     name="email"
                     id="email"
-                    placeholder="Your email"
+                    placeholder="Your Email"
                   />
                 </div>
 
-                <div className="mb-4 md:w-full border-2 rounded flex justify-center items-center ">
+                <div className="mb-4 md:w-full border-2 rounded flex justify-center items-center dark:border dark:border-black  ">
                   <span className="ms-4">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@ function Client_portal() {
                     </svg>
                   </span>
                   <input
-                    className="w-full  p-2 outline-none focus:shadow-outline"
+                    className="w-full  p-2 outline-none focus:shadow-outline dark:bg-neutral-300 dark:placeholder:text-black  dark:placeholder:font-bold"
                     type="password"
                     name="password"
                     id="password"
@@ -81,18 +81,18 @@ function Client_portal() {
                   />
                 </div>
 
-                <button className="bg-primary w-full hover:bg-blue-800 text-white uppercase text-sm font-semibold px-4 py-2 rounded">
+                <button className=" dark:bg-black dark:hover:border-black dark:hover:bg-white dark:hover:text-black dark:hover:border bg-primary w-full hover:bg-blue-800 text-white uppercase text-sm font-semibold px-4 py-2 rounded">
                   Log In
                 </button>
               </form>
               <a
-                className="text-blue-700 text-center justify-center items-center flex text-sm"
+                className="text-blue-700 text-center justify-center items-center flex text-sm dark:text-black dark:font-bold"
                 href="/login"
               >
                 Forgot password?
               </a>
               <p className="text-sm  md:pt-0 pt-5 lg:pt-9"> Don’t have an account?<a
-                className="text-blue-700 text-center text-sm font-bold"
+                className="text-blue-700 text-center text-sm font-bold dark:font-bold dark:text-black"
                 href="/login"
               >
               Sign Up

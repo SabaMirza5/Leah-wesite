@@ -3,7 +3,7 @@ import React from "react";
 function Privacy_policy() {
   return (
     <>
-      <div className="div">
+      <div className="dark:bg-neutral-200">
         <div className="flex  flex-col p-[5%]">
           <h1 className="lg:text-4xl md:text-4xl text-xl font-serif font-bold">
             Legal Terms and Conditions
@@ -31,7 +31,7 @@ function Privacy_policy() {
             User Responsibilities
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">
+            <span className="text-primary font-bold dark:text-black">
               Accurate Information:
             </span>{" "}
             You are solely responsible for providing accurate and up-to-date
@@ -40,7 +40,7 @@ function Privacy_policy() {
             based on this information are at your own risk.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Security:</span> You are
+            <span className="text-primary font-bold dark:text-black">Security:</span> You are
             responsible for maintaining the confidentiality of your Massie Free
             Benchmarking Tool  account login credentials. Any activities
             performed using your account will be attributed to you. If you
@@ -48,7 +48,7 @@ function Privacy_policy() {
             immediately.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Compliance: </span> You
+            <span className="text-primary font-bold dark:text-black">Compliance: </span> You
             agree to comply with all Massie Free Benchmarking Tool licable laws,
             regulations, and industry standards related to your use of the
             Massie Free Benchmarking Tool and the input of Financial
@@ -58,18 +58,18 @@ function Privacy_policy() {
             Data Privacy and Security
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Privacy Policy:</span> We
+            <span className="text-primary font-bold dark:text-black">Privacy Policy:</span> We
             are committed to protecting your privacy and the security of your
             data. Please review our Privacy Policy [Link to Privacy Policy] for
             details on how we collect, use, and safeguard your information.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Data Encryption:</span>{" "}
+            <span className="text-primary font-bold dark:text-black">Data Encryption:</span>{" "}
             We employ industry-standard encryption techniques to secure your
             Financial Information and ensure it remains confidential.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">
+            <span className="text-primary font-bold dark:text-black">
               Third-Party Access:
             </span>{" "}
             We do not share your Financial Information with third parties
@@ -81,21 +81,21 @@ function Privacy_policy() {
             Limitations and Disclaimers
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Financial Advice:</span>{" "}
+            <span className="text-primary font-bold dark:text-black">Financial Advice:</span>{" "}
             The Massie Free Benchmarking Tool is intended for informational
             purposes only and does not constitute financial, legal, or
             investment advice. We do not provide any recommendations or endorse
             specific financial actions.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">No Guarantees:</span>{" "}
+            <span className="text-primary font-bold dark:text-black">No Guarantees:</span>{" "}
             While we strive to maintain the accuracy and functionality of the
             Massie Free Benchmarking Tool, we do not guarantee that it will be
             error-free or continuously available. Technical issues, maintenance,
             or unforeseen circumstances may result in interruptions or delays.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">User's Sole Risk:</span>
+            <span className="text-primary font-bold dark:text-black">User's Sole Risk:</span>
             The use of the Massie Free Benchmarking Tool and reliance on any
             information provided are solely at your own risk. We shall not be
             liable for any direct, indirect, incidental, consequential, or
@@ -107,11 +107,11 @@ function Privacy_policy() {
           Intellectual Property
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Ownership: </span>{" "}
+            <span className="text-primary font-bold dark:text-black">Ownership: </span>{" "}
             All content, designs, logos, trademarks, and other intellectual property displayed on the Massie Free Benchmarking Tool are the exclusive property of [Your Company Name] or its licensors.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Limited License:</span>{" "}
+            <span className="text-primary font-bold dark:text-black">Limited License:</span>{" "}
             Subject to compliance with these Terms, we grant you a limited, non-exclusive, revocable license to use the Massie Financial Calculator  for personal, non-commercial purposes.
           </p>
           
@@ -119,11 +119,11 @@ function Privacy_policy() {
           Modification and Termination
           </h2>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Modifications: </span>{" "}
+            <span className="text-primary font-bold dark:text-black">Modifications: </span>{" "}
             We reserve the right to modify, suspend, or discontinue the Massie Free Benchmarking Tool or any part thereof at any time without notice.
           </p>
           <p className="lg:text-lg md:text-lg text-sm font-serif font-normal py-2">
-            <span className="text-primary font-bold">Termination:</span>{" "}
+            <span className="text-primary font-bold dark:text-black">Termination:</span>{" "}
             We may terminate your access to the Massie Free Benchmarking Tool if you violate these Terms or for any other reason at our sole discretion.
           </p>
           <h2 className="lg:text-2xl md:text-2xl text-base font-bold font-serif">

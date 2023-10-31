@@ -8,7 +8,7 @@ function About_page_header_sec() {
     <> 
             <Commen_header_sec 
               title="Welcome to Massie & Company"
-              background={{background:`url(${aboutbg})`}}/>
+              background={{background:`url(${aboutbg})`}}  />
     </>
   );
 }

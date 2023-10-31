@@ -1,12 +1,10 @@
 
-
 import Footer from "./components/Footer";
 import About from "./pages/About";
 import Home from "./pages/Home";
 import Resources_page from "./pages/Resources_page";
 import Services from "./pages/Services";
 import Navbaar_2 from "./components/Navbaar_2";
-import React from "react";
 import {  Routes, Route, } from "react-router-dom";
 import Privacy_policy_page from "./pages/Privacy_policy_page";
 import Contact_us_page from "./pages/Contact_us_page";
@@ -25,10 +23,11 @@ import Business_lifecycle_page from "./pages/Business_lifecycle_page";
 import Advisory_page from "./pages/Advisory_page";
 import Our_Client_page from "./pages/Our_Client_page";
 
+
 function App() {
   return (
     <>
-      <Navbaar_2 />
+      <Navbaar_2/>
       <div>
         <Routes>
           <Route exact path="/" element={<Home />} />
@@ -51,8 +50,6 @@ function App() {
           <Route exact path="/lifecycle" element={<Business_lifecycle_page/>} />
           <Route exact path="/advisory" element={<Advisory_page/>} />
           <Route exact path="/ourclientpage" element={<Our_Client_page/>} />
-
-
         </Routes>
       </div>
       <Footer />

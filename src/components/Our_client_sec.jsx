@@ -17,8 +17,8 @@ import { Navigation } from 'swiper/modules';
 function Our_client_sec() {
   return (
     <>
-    <div className='bg-[#F8F8F8]'> 
-    <div className='mt-20'>
+    <div className='bg-[#F8F8F8] dark:bg-neutral-200'> 
+    <div className='pt-20'>
     <h2 className='font-bold font-serif capitalize lg:text-4xl  md:text-4xl text-2xl pb-6 justify-center text-center pt-5'>Our Clients</h2>
     </div>
     <Swiper

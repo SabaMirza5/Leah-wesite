@@ -9,7 +9,7 @@ import blog6 from "../assets/blog6.png";
 function Blogs_page() {
   return (
     <>
-    <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-7 pl-[5%] pr-[5%] my-10">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2  grid-cols-1 gap-7 pl-[5%] pr-[5%] py-10 dark:bg-neutral-200">
     <Blogs_props_page 
     imgsrc={blog1}
     title="Our Commitment to Excellence"

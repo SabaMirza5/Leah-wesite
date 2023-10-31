@@ -11,7 +11,7 @@ function Mission_and_values_page() {
         background={{ background: `url(${missionbg})` }}
       />
 
-      <div className="p-[5%]">
+      <div className="p-[5%] dark:bg-neutral-200">
         <h1 className="lg:text-xl md:text-xl text-base font-serif font-bold">
           Our Mission:
         </h1>

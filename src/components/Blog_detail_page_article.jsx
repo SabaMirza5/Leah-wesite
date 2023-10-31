@@ -9,7 +9,7 @@ import Blogs_article_props_page from "./Blogs_article_props_page";
 function Blog_detail_page_article() {
   return (
     <>
-      <div className="flex  lg:flex-row md:flex-row flex-col gap-7 px-[5%] pt-[5%]">
+      <div className="flex  lg:flex-row md:flex-row flex-col gap-7 px-[5%] pt-[5%] ">
         <div className="basis-1/2">
           <img src={blogarticle1} alt="" className="w-full" />
         </div>

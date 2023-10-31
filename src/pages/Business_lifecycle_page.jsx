@@ -9,7 +9,7 @@ function Business_lifecycle_page() {
         title="Business Lifecycle"
         background={{ background: `url(${lifecyclebg})` }}
       />
-      <div className="flex  flex-col p-[5%]">
+      <div className="flex  flex-col p-[5%] dark:bg-neutral-200">
         <h1 className="lg:text-4xl md:text-4xl text-xl font-serif font-bold">
           Business lifecycle
         </h1>

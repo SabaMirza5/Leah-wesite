@@ -16,7 +16,7 @@ function Why_wer_different_page() {
         background={{ background: `url(${whywedifferenetbg})` }}
       />
 
-      <div className="flex  flex-col p-[5%]">
+      <div className="flex  flex-col p-[5%] dark:bg-neutral-200">
         <h1 className="lg:text-4xl md:text-4xl text-xl font-serif font-bold">
           Why We're Different
         </h1>

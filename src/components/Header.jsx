@@ -17,13 +17,14 @@ import { Navigation } from 'swiper/modules';
 function Header() {
   return (
     <>
-    <div className="bg-[#F8F8F8] flex mx-auto flex-col sm:flex-row " >
+    <div className="bg-[#F8F8F8] flex mx-auto flex-col sm:flex-row dark:bg-neutral-200  " >
       <div className='basis-3/5 my-auto mx-0 pl-[5%]'>
-      <hr className='w-20 bg-blue-800'/>
-            <h3 className='md:pt-2 pt-32 font-bold md:text-3xl text-base text-primary font-serif'>Welcome to Massie & Company</h3>
+      <hr className='w-28 h-1 bg-primary lg:flex md:flex hidden'/>
+            <h3 className='md:pt-2 pt-32 font-bold md:text-3xl text-base text-primary font-serif dark:text-sky-950'>Welcome to Massie & Company</h3>
             <h1 className='md:text-4xl lg:text-5xl font-bold font-serif md:py-5 pt-0  text-black capitalize'>Your Trusted <br /> Construction CPA Firm</h1>
             <div className='flex items-center md:mb-0 mb-5'>
-            <button className='text-white bg-primary p-3 hover:bg-white hover:border-4 hover:border-primary hover:text-primary font-bold'>Learn More</button>
+           <button className='btn lg:p-3 md:p-2 p-2 rounded  md:static text-primary border-4 border-primary bg-white dark:bg-neutral-200  dark:border-black dark:hover:text-primary  dark:hover:border-primary dark:text-black hover:bg-primary hover:text-white font-bold'>Learn More</button>
+            {/* <button className= 'text-white bg-primary p-3 dark:bg-neutral-200 hover:bg-white hover:border-4 hover:border-primary dark:hover:border-white dark:hover:text-white dark:hover:bg-black hover:text-primary font-bold'>Learn More</button> */}
             <img src={videobtn} alt=""  className='pl-2'/>
             <p className='pl-2 text-xl capitalize font-normal'>Watch Video</p>
             </div>
@@ -32,7 +33,7 @@ function Header() {
       <img src={headerimg} alt="" className='w-full'/>
       </div>
     </div>
-    <div className='bg-[#F8F8F8] py-6 '> 
+    <div className='bg-[#F8F8F8] py-6 dark:bg-neutral-200 '> 
     <Swiper navigation={true} modules={[Navigation]}       
       slidesPerView={1}
         spaceBetween={10}
