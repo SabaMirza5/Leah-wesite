@@ -10,7 +10,7 @@ function Advisory_page() {
     <>
           <Commen_header_sec 
               title="Business Advisory Services"
-              background={{background:`url(${advisorybg})`}}/> 
+              background={{background:`url(${advisorybg})`, backgroundRepeat:no-repeat}}/> 
     
           <Tex_services_page_props
      sideimg={advisory1}

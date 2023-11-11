@@ -24,10 +24,10 @@ const Navbaar_2 = () => {
             <div onClick={()=>setOpen(!open)} className='absolute right-8 top-6 cursor-pointer xl:hidden w-7 h-7'>
                 {
                   
-                    open ? <FaTimes/> : <FaAlignJustify/>
+                    open ? <FaTimes/> : <FaAlignJustify/>   
                 }
             </div>
-            <ul className={`xl:flex xl:pb-0 pb-12 absolute xl:static bg-white  dark:bg-neutral-200 xl:z-auto z-[-1] left-0 w-full  items-center xl:w-auto xl:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-20 md:top-[7rem]' : 'top-[-490px] md:top[-550px]'}`}>
+            <ul className={`xl:flex xl:pb-0 pb-12 absolute xl:static bg-white  dark:bg-neutral-200 xl:z-auto z-[-1] left-0 w-full  items-center xl:w-auto xl:pl-0 pl-9 transition-all duration-500 ease-in ${open ? 'top-24 md:top-[7rem]' : 'top-[-490px] md:top[-550px]'}`}>
                 {
                     Links.map((link, index) => (
                     <li className='md:ml-8 md:my-0 my-2 font-semibold' key={index} >

@@ -11,6 +11,10 @@ module.exports = {
       colors:{
              'primary':'#1E559B',
        },
+    //    img:{
+    // "background":"no-repeat",
+    // "background-size":"cover",
+    //    },
     },
   },
   plugins: [],

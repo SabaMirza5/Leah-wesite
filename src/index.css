@@ -2,3 +2,9 @@
 @tailwind components;
 @tailwind utilities; 
  
+
+.header-bg{
+  background-repeat: no-repeat !important;
+  background-position: center center !important;
+  background-size: cover !important;
+}
